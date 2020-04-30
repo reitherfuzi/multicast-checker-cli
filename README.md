@@ -7,7 +7,7 @@ The app can be configured via passed arguments and will output the received data
 The following commands can be passed to the application.
 
 | Command     | Description  |
-------------------------------
+|-------------|--------------|
 | -g, --group | The multicast group-address to reiceive from |
 | -p, --port  | The multicast port of the address to receive from |
 | -t, --timeout | The socket-timeout in ms, if no data received after this time the app will shutdown |
@@ -16,4 +16,4 @@ The following commands can be passed to the application.
 | -v, --verbose | enables verbose output on the beginning of the application to check the config |
 
 ## Thanks
-Many thanks to com.buest for the really nice `jcommander` library used by this app!
+Many thanks to `com.buest` for the really nice `jcommander` library used by this app!
