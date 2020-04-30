@@ -8,7 +8,7 @@ The following commands can be passed to the application.
 
 | Command     | Description  |
 |-------------|--------------|
-| -g, --group | The multicast group-address to reiceive the data from. **[required]** |
+| -g, --group | The multicast group-address to receive the data from. **[required]** |
 | -p, --port  | The multicast port of the address to receive the data from. **[required]** |
 | -t, --timeout | The socket-timeout in ms, if no data received after this time the application will shutdown. |
 | -o, --output | The type of how the data should be outputted to the console [ASCII, HEX, BINARY, OCTAL, BYTE] |
