@@ -4,7 +4,7 @@ A small java-application which runs on the command-line only and can receive inc
 The app can be configured via passed arguments and will output the received data in different output-types.
 
 ## Usage
-On a windows-machine, open up a command-line "cmd.exe" or powershell "powershell.exe".
+On a windows-machine, open up a command-line `cmd.exe` or powershell `powershell.exe`.
 Navigate to the folder where the multicast-checker has been saved.
 
 	> java -jar multicast-checker-1.0-run.jar -g [group] -p [port]
