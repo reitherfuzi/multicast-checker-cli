@@ -3,6 +3,15 @@
 A small java-application which runs on the command-line only and can receive incoming multicast-traffic.
 The app can be configured via passed arguments and will output the received data in different output-types.
 
+## Usage
+On a windows-machine, open up a command-line "cmd.exe" or powershell "powershell.exe".
+Navigate to the folder where the multicast-checker has been saved.
+
+	> java -jar multicast-checker-1.0-run.jar -g [group] -p [port]
+	
+Will start the multicast-checker with the passed group-address and portnumber.
+More arguments can be passed to the application. Take a look at the next chapter.
+
 ## Commands
 The following commands can be passed to the application.
 
