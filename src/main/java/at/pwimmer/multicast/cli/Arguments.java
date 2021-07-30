@@ -6,6 +6,7 @@ import com.beust.jcommander.Parameter;
 public class Arguments {
     private static final String DEFAULT_OUTPUT_TYPE = OutputType.ASCII.toString();
     private static final boolean DEFAULT_VERBOSE = false;
+    private static final boolean DEFAULT_HELP = false;
     private static final int DEFAULT_RESTRICTION = 0;
     private static final int DEFAULT_TIMEOUT = 15000;
 
@@ -26,6 +27,9 @@ public class Arguments {
 
     @Parameter(names = {"-r", "--restrict"}, description = "restrict the amount of incoming packets before termination")
     private Integer restriction = DEFAULT_RESTRICTION;
+
+    @Parameter(names = {"-h", "--help"}, description = "display help and usage info for the multicast-checker")
+    private boolean help = DEFAULT_HELP;
 
     public String getGroup() {
         return group;
@@ -49,5 +53,9 @@ public class Arguments {
 
     public Integer getRestriction() {
         return restriction;
+    }
+
+    public boolean isHelp() {
+        return help;
     }
 }
